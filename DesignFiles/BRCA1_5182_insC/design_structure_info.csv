@@ -1,0 +1,4 @@
+name,struct_complex_correct_on,struct_complex_correct_off,struct_complex_mut_on,struct_complex_mut_off,
+BRCA1_5182_insC_R4F3,U3 U7 D20( U10 D25( + U3 ) U10 ) U95,U3 U7 U20 U10 D25( + U3 ) U13 D21( U20) U50,U3 U7 D10(  D9( U10 D25( + U3 ) U10 ) U1 ) U95,U3 U7 U19 U10 D25( + U3 ) U13 D21( U20) U50,
+BRCA1_5182_insC_R4F4,U3 U7 D21( U10 D24( + U3 ) U10 ) U95,U3 U7 U21 U10 D24( + U3 ) U14 D21( U20) U50,U3 U7 D10(  D10( U10 D24( + U3 ) U10 ) U1 ) U95,U3 U7 U20 U10 D24( + U3 ) U14 D21( U20) U50,
+BRCA1_5182_insC_R4F5,U3 U7 D22( U10 D23( + U3 ) U10 ) U95,U3 U7 U22 U10 D23( + U3 ) U15 D21( U20) U50,U3 U7 D10(  D11( U10 D23( + U3 ) U10 ) U1 ) U95,U3 U7 U21 U10 D23( + U3 ) U15 D21( U20) U50,

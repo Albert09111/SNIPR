@@ -1,0 +1,32 @@
+material = rna
+temperature = 37 
+
+domain post_hpin= NNNNNNNNNNNNNNNNNNNNNATGACCATGATTACGGATTCACTGGCCGT
+domain WT_target_seq = AAAGCGAGCAAGAGAAUCCCAGGACAGAAAGGUAAAGCUCCCUCCCUCAAGUUGACAAAAA
+domain SNP_target_seq = AAAGCGAGCAAGAGAAUCCCCAGGACAGAAAGGUAAAGCUCCCUCCCUCAAGUUGACAAAAA
+domain preGGG = GGG 
+domain hpin_loop = NNNAGAGGAGANNNNNNAUG
+domain hpin_bulge = NNNNNNNNNN
+domain docking_region = CUCCCUCCCUCAAGUUGACAAAAA
+domain toehold1 = ACAG
+domain toehold2 = AGCA
+domain bm = GCAAGAGAAUCCCCAGG
+
+strand target1 = preGGG WT_target_seq 
+strand target2 = preGGG SNP_target_seq 
+strand hairpin0 = preGGG docking_region* hpin_bulge toehold1* bm* toehold2* hpin_loop toehold2 bm post_hpin 
+
+complex target_wt = target1 
+complex target_snp = target2 
+complex hairpin = hairpin0 
+complex assemble_on = target2 hairpin0 
+complex assemble_off = target1 hairpin0 
+
+target_wt.structure = U3 U61
+target_snp.structure = U3 U62
+hairpin.structure = U3 U38 D21( U20 ) U50
+assemble_on.structure = U3 U7 D21( U10 D24( + U3 ) U10 ) U95
+assemble_off.structure = U3 U7 U20 U10 D24( + U3 ) U14 D21( U20) U50
+
+stop[%] = 50 
+prevent = AAAAAAAA, CCCCCCCC, GGGGGGGG, UUUUUUUU

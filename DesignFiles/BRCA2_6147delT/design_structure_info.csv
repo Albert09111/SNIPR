@@ -1,0 +1,4 @@
+name,struct_complex_correct_on,struct_complex_correct_off,struct_complex_mut_on,struct_complex_mut_off,
+BRCA2_6147delT_R4F3,U3 U51 D20( U10 D61( + U3 ) U10 ) U95,U3 U51 U20 U10 D61( + U3 ) U13 D21( U20) U50,U3 U51 D10( U1 D1( D9( U10 D61( + U3 ) U10 ) ) ) U95,U3 U51 U21 U10 D61( + U3 ) U13 D21( U20) U50,
+BRCA2_6147delT_R4F4,U3 U51 D21( U10 D60( + U3 ) U10 ) U95,U3 U51 U21 U10 D60( + U3 ) U14 D21( U20) U50,U3 U51 D10( U1 D1( D10( U10 D60( + U3 ) U10 ) ) ) U95,U3 U51 U22 U10 D60( + U3 ) U14 D21( U20) U50,
+BRCA2_6147delT_R4F5,U3 U51 D22( U10 D59( + U3 ) U10 ) U95,U3 U51 U22 U10 D59( + U3 ) U15 D21( U20) U50,U3 U51 D10( U1 D1( D11( U10 D59( + U3 ) U10 ) ) ) U95,U3 U51 U23 U10 D59( + U3 ) U15 D21( U20) U50,
