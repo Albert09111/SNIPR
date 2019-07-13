@@ -4,7 +4,8 @@
 
 SNIPR is a software to design single nucleotide specific programmable riboregulator. 
 
-#Requirements:
+#Requirements
+
 SNIPR is using NUPACK3.2 to optimize the sequence design. To use SNIPR, please download and install [NUPACK3.2](http://www.nupack.org/). The installation guide of NUPACK can be found in NUPACK3.2 manual.
 After the installation.
 
