@@ -7,9 +7,8 @@ SNIPR is a software to design single nucleotide specific programmable riboregula
 # Requirements
 
 SNIPR is using NUPACK3.2 to optimize the sequence design. To use SNIPR, please download and install [NUPACK3.2](http://www.nupack.org/). The installation guide of NUPACK can be found in NUPACK3.2 manual.
-After the installation.
 
-After the NUPACK installation, we need to add NUPACK to system’s environmental variables to make the usage more conveniently. 
+After the NUPACK installation, we need to add NUPACK to system’s environmental variables to make the usage more convenient. 
 
 Firstly, open the environment variable.
 
