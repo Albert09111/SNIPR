@@ -4,6 +4,8 @@
 
 SNIPR is a software to design single nucleotide specific programmable riboregulator. 
 
+See published paper: (Precise and Programmable Detection of Mutations Using Ultraspecific Riboregulators)[https://www.cell.com/cell/fulltext/S0092-8674(20)30155-0]
+
 # Requirements
 
 The SNIPR software makes use of the multi-objective sequence design features and energy calculation capabilities of NUPACK. Users must download the (NUPACK source code)[http://www.nupack.org/downloads] and compile it on their computers. Please follow the NUPACK manual to install NUPACK. 
