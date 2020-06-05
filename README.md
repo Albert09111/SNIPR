@@ -5,6 +5,7 @@
 SNIPR is a software to design single nucleotide specific programmable riboregulator. 
 
 See published paper: 
+
 [Precise and Programmable Detection of Mutations Using Ultraspecific Riboregulators, Cell, 180, 1018-1032](https://www.cell.com/cell/fulltext/S0092-8674(20)30155-0)
 
 # Requirements
